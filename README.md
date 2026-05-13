@@ -88,22 +88,13 @@ Website Live at <node-ip>:30080
 
 ## 📸 Screenshots
 
-**Jenkins Pipeline — All Stages Passed**
-![Jenkins Pipeline](screenshots/pipeline.png)
-
-**Kubernetes Pods Running**
-![Pods](screenshots/pods-running.png)
-
-**Live Website**
-![Website](screenshots/website.png)
-
-**AWS EC2 Instances**
-![EC2](screenshots/ec2.png)
-
-**DockerHub Image Pushed**
-![DockerHub](screenshots/dockerhub.png)
-
----
+| Screenshot | Link |
+|------------|------|
+| Jenkins Pipeline — All Stages Passed | [View](screenshots/pipeline.png) |
+| Kubernetes Pods Running | [View](screenshots/pods%20running.png) |
+| Live Website | [View](screenshots/website.png) |
+| AWS EC2 Instances | [View](screenshots/Ec2.png) |
+| DockerHub Image Pushed | [View](screenshots/dockerhub.png) |
 
 ## 🚀 How to Run
 

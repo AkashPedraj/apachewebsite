@@ -5,7 +5,7 @@ metadata:
   labels:
     app: apachewebsite
 spec:
-  replicas: 2   # number of pods
+  replicas: 2
   selector:
     matchLabels:
       app: apachewebsite
@@ -16,22 +16,6 @@ spec:
     spec:
       containers:
       - name: apachewebsite
-        image: akshu20791/apachewebsite:latest
+        image: akashdeveloper001/apachewebsite:latest
         ports:
         - containerPort: 80
-
----
-
-apiVersion: v1
-kind: Service
-metadata:
-  name: apachewebsite-service
-spec:
-  selector:
-    app: apachewebsite
-  ports:
-    - protocol: TCP
-      port: 80        # Service port
-      targetPort: 80  # Container port
-      nodePort: 30080 # Optional: fixed NodePort
-  type: NodePort      # Change to LoadBalancer if using cloud provider

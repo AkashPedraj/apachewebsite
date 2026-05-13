@@ -34,9 +34,13 @@ GitHub → Jenkins → Ansible → Docker → Kubernetes → Live Website
 5. Run the Jenkins pipeline
 
 ## Project Screenshots
-Add your screenshots here
+screenshots/pipeline.png
+screenshots/pods running.png
+screenshots/website.png
+screenshots/Ec2.png
+screenshots/dockerhub.png
 
 ## Author
 Akash Pedraj
-[LinkedIn](your linkedin url)
+[LinkedIn](https://www.linkedin.com/in/akash-pedraj/)
 [GitHub](https://github.com/AkashPedraj)
